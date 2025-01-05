@@ -17,25 +17,25 @@
 // console.log(newNumbers);
 
 // 3.filter
-// let numbers = [4, 1, 5, 3, 2];
-
-// let filteredNumbers = numbers.filter(function (item) {
-//   // map 과 마찬가지로 return값이 들어가야 함!
-//   // map 은 가공할 값이 들어가죠? filter는 필터링을 할 조건이 들어갑니다.
-//   return item > 3;
-//   // return item === 5;
-//   // return item !== 5;
-// });
-
-// console.log(filteredNumbers);
-
-// 4.find
 let numbers = [4, 1, 5, 3, 2];
 
-let result = numbers.find(function (item) {
-  // filter랑 유사하게 조건문을 통해 조건이 맞는 것만 반환하게 되어 있다.
-  // 그러나, 조건에 맞는 요소 중 첫 번째만 반환!!
+let filteredNumbers = numbers.filter(function (item) {
+  // map 과 마찬가지로 return값이 들어가야 함!
+  // map 은 가공할 값이 들어가죠? filter는 필터링을 할 조건이 들어갑니다.
   return item > 3;
+  // return item === 5;
+  // return item !== 5;
 });
 
-console.log(result);
+console.log(filteredNumbers);
+
+// 4.find
+// let numbers = [4, 1, 5, 3, 2];
+
+// let result = numbers.find(function (item) {
+//   // filter랑 유사하게 조건문을 통해 조건이 맞는 것만 반환하게 되어 있다.
+//   // 그러나, 조건에 맞는 요소 중 첫 번째만 반환!!
+//   return item > 3;
+// });
+
+// console.log(result);
